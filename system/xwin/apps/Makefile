@@ -5,6 +5,8 @@ all:
 	cd xcores; $(MAKE)
 	cd xfonts; $(MAKE)
 	cd xapps; $(MAKE)
+	cd cards; $(MAKE)
+	cd mine; $(MAKE)
 	cd xfinder; $(MAKE)
 	cd ximg; $(MAKE)
 	cd xprocs; $(MAKE)
@@ -22,6 +24,8 @@ clean:
 	cd xcores; $(MAKE) clean
 	cd xfonts; $(MAKE) clean
 	cd xapps; $(MAKE) clean
+	cd cards; $(MAKE) clean
+	cd mine; $(MAKE) clean
 	cd xfinder; $(MAKE) clean
 	cd ximg; $(MAKE) clean
 	cd xprocs; $(MAKE) clean
@@ -31,4 +35,3 @@ clean:
 	cd xipconfig; $(MAKE) clean
 	cd clock; $(MAKE) clean
 	cd SndPlayer; $(MAKE) clean
-
